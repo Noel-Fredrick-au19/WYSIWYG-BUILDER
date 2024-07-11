@@ -37,6 +37,10 @@ This project is a web-based WYSIWYG (What You See Is What You Get) web page buil
    ```sh
    npm start
    ```
+4. **Deployed on Vercel below is the link**
+   ```sh
+   https://wysiwyg-builder.vercel.app/
+   ```
 
 ## Project Structure
 

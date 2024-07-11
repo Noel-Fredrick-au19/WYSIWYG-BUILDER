@@ -80,8 +80,8 @@ Froala Editor is a lightweight WYSIWYG HTML Editor written in JavaScript. It's a
 
 Here are the main dependencies used in this project:
 
-- **React:** `^17.0.2`
-- **TypeScript:** `^4.1.2`
+- **React:** `^18.3.1`
+- **TypeScript:** `^4.9.5`
 - **MUI (Material-UI):** `^4.11.3`
 - **Froala Editor:** `^4.0.10`
 - **jQuery:** `^3.6.0`

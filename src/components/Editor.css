@@ -1,0 +1,103 @@
+.block {
+  margin: 20px 0;
+  position: relative;
+}
+
+.close_btn,
+.drag_btn {
+  display: none;
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  background: #505050;
+  padding: 2px 10px 4px 5px;
+  z-index: 1000;
+}
+
+.close_btn {
+  left: 100%;
+  cursor: pointer;
+}
+
+.drag_btn {
+  left: 95%;
+  cursor: grab;
+  font-weight: bold;
+}
+
+.block:hover > .close_btn,
+.block:hover > .drag_btn {
+  display: inline-block;
+}
+
+.close_btn:hover,
+.drag_btn:hover {
+  background-color: #eee;
+}
+
+.editor-area {
+  min-height: 82.5vh;
+  padding: 20px;
+  background-color: white;
+  width: 150vh;
+  margin-top: 20px;
+  margin-right: 80px;
+  border-top: 25px solid rgb(52 58 64);
+  border-top-right-radius: 15px;
+}
+
+.editor-container {
+  padding: 30px;
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+  padding: 30px;
+  background-color: grey;
+}
+
+.col-1 {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  padding-left: 80px;
+  margin-left: 100px;
+  margin-left: 210px;
+  height: 87vh;
+}
+
+.col-2 {
+  width: 70%;
+  padding: 10px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.block-source {
+  margin: 0 0 18px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.block-source:hover {
+  background-color: #f0f0f0;
+}
+
+.block-source svg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.block-source span {
+  display: block;
+  font-size: 12px;
+}
